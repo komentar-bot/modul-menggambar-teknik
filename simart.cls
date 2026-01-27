@@ -81,6 +81,7 @@
 \usepackage{tabularx}
 \usepackage{booktabs} % Required for better horizontal rules in tables
 %\usepackage{multirow}
+\usepackage{multicol}
 
 %\usepackage{makecell} %line break inside table. Alternatively, for a single cell, you can use the \makecell or
 %\renewcommand\theadalign{bc}  %\thead commands with the optional argument [vh], v is t,c, or b. h is l,c,or r

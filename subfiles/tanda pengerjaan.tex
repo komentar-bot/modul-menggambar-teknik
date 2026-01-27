@@ -1,0 +1,111 @@
+%! TEX root = tanda pengerjaan.tex
+% the main TeX file which is intended to compile, :VimtexReload after adjustment
+   % this file should be included in the main file
+% :h vimtex-tex-root
+\documentclass[../menggambarteknik.tex]{subfiles}
+%ensure the class of docs
+
+\begin{document}
+
+\section{Tanda Pengerjaan}
+
+\subsection*{Tujuan}
+Setelah mempelajari bahan dalam bab ini, seharusnya Anda dapat:
+\begin{enumerate}
+	\item Menyebutkan fungsi dari tanda pengerjaan.
+	\item Merencanakan berbagai tanda pengerjaan pada gambar kerja.
+	\item Mempergunakan tanda pengerjaan pada gambar kerja.
+\end{enumerate}
+
+\subsection{Fungsi Tanda Pengerjaan}
+Permukaan benda kerja memegang peran yang penting dalam perencanaan mesin, terutama untuk memperhitungkan gesekan, pelumasan, keausan, dan sebagainya. Untuk itu teknisi harus memenuhi syarat permukaan yang dikehendaki oleh perencana atau pemesan. Agar teknisi dapat memenuhi permukaan yang sesuai, maka karateristik permukaan harus tercantum dalam gambar teknik mesin, sehingga teknisi bisa mengerti permukaan apa yang diinginkan.
+
+Untuk menghasilkan permukaan yang sesuai, maka pada gambar kerja perlu adanya tanda-tanda pengerjaan yang dinormalisasi yang diletakkan pada bagian-bagian dikehendaki permukaannya. Pelaksanaan penempatan tanda pengerjaan ini juga mengharuskan perpanjangan pada sebelah kanan sebagaimana gambar dibaca. Simbol dasar dari tanda pengerjaan ini terdiri dari dua garis dengan ketinggian yang tidak sama dengan perbandingan 1 : 2 yang membentuk sudut 60o satu sama lain (lihat Gambar 37).
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{tanda pengerjaan.png}
+	\end{center}
+	\caption{Simbol dasar tanda pengerjaan}
+	\label{fig:simbol tandapengerjaan}
+\end{figure}
+
+
+Tidak semua permukaan benda dikerjakan dengan mesin. Ada kalanya karena sesuatu hal permukaan tersebut tidak dikerjakan, atau dibiarkan saja dan juga bisa permukaan tersebut tidak boleh dibuang, karena ukurannya sudah sangat pas. Konfigurasi permukaan yang bebas dikerjakan dengan mesin apapun dan permukaan yang tidak diijinkan untuk dikerjakan adalah seperti terlihat pada Gambar 37.
+
+
+% \begin{columns}[c]
+% 	\begin{column}{.5\textwidth}
+% 		\begin{figure}
+% 			\centering
+% 			\includegraphics[width=0.8\textwidth]{bebas.png}
+% 			\caption{Lambang pengerjaan bebas}
+% 		\end{figure}
+% 	\end{column}
+% 	\begin{column}{.5\textwidth}
+% 		\begin{figure}
+% 			\centering
+% 			\includegraphics[width=0.8\textwidth]{tdk_diijinkan.png}
+% 			\caption{Lambang tidak dikerjakan}
+% 		\end{figure}
+% 	\end{column}
+% \end{columns}
+
+\subsection{Penulisan Tanda Pengerjaan}
+Pengerjaan permukaan yang mendapat pengerjaan mesin harus dicantumkan dengan keterangan pada simbol dasar yang berbentuk segi tiga. Adapun pengembangan spesifikasi dari penulisan simbol yang telah diberi keterangan adalah seperti terlihat pada Gambar 38 di bawah ini.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{tanda pengerjaan keterangan.png}
+	\end{center}
+	\caption{Simbol tanda pengerjaan dan keterangannya}
+	\label{fig:tanda pengerjaan ket}
+\end{figure}
+
+Arah pengerjaan permukaan benda kerja sangat tergantung pada selera dan kehalusan (kekasaran) yang diinginkan. Harga kekasaran dan kelas kekasaran untuk beberapa nilai adalah seperti terlihat pada Tabel 5 di bawah ini.
+\begin{table}[htb]
+	\caption{Harga dan Kelas Kekerasan}
+	\label{tb:kelaskeras}
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		Harga Kekerasan (Ra) (um)  &  Kelas Kekeran  \\
+		0,025                      &  N1  \\
+		0,05                       &  N2  \\
+		0,1                        &  N3  \\
+		0,2                        &  N4  \\
+		0,4                        &  N5  \\
+		0,8                        &  N6  \\
+		1,6                        &  N7  \\
+		3,2                        &  N8  \\
+		6,3                        &  N9  \\
+		12,5                       &  N10  \\
+		25                         &  N11  \\
+		50                         &  N12  \\
+	\end{tabularx}
+\end{table}
+
+Berkaitan dengan arah pengerjaan mesin, dibedakan menjadi enam bentuk arah. Adapun simbol-simbol (lambang) arahnya adalah seperti terlihat pada Tabel 6 di bawah ini. Untuk nilai kelas kekasaran dari beberapa cara pengerjaan mesin adalah seperti terlihat pada Tabel 7.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{arah pengerjaan.jpg}
+	\end{center}
+	\caption{Lambang arah pengerjaan permukaan}
+	\label{fig:arahpengerjaan}
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{kekerasanmesin.jpg}
+	\end{center}
+	\caption{Lambang arah pengerjaan permukaan}
+	\label{fig:}
+\end{figure}
+
+
+
+
+\bibliographystyle{apalike}
+\bibliography{../filename.bib} % required for citecompletion, not work in mainfile
+\end{document}
+
