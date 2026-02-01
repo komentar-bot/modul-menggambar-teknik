@@ -157,6 +157,7 @@
 %\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1} %Insert Keyword Command
 
 %\usepackage[bahasai,showdow, calc]{datetime2} %Formating date or DTMtoday command, files ldf needs customization.
+\usepackage{placeins}
 %----------------------------------------------------------------------------------------
 % PRINT CODE IN LATEX DOCUMENT
 \usepackage{listings}
