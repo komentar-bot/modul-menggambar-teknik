@@ -240,7 +240,7 @@
 \renewcommand{\cftsecfont}{\normalfont}%change chap to normal
 \renewcommand{\cftsecpagefont}{\normalfont}%change num page to normal
 \renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}%add dots and change dots to normal
-\renewcommand\cftsecpresnum{BAB }
+\renewcommand\cftsecpresnum{Modul }
 
 \renewcommand{\cftfigpresnum}{\figurename\enspace}
 \renewcommand{\cftfigaftersnum}{\enspace}
@@ -281,7 +281,7 @@
 \titleformat{\section} %command
 [display]%shape
 {\normalfont\fontsize{11}{15}\filcenter\bfseries}%format
-{BAB \thesection}%label
+{Modul \thesection}%label
 {0pt}%sep
 {\vspace{-4pt}}%before-title
 []%after-title
